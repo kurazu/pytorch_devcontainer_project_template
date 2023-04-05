@@ -1,0 +1,26 @@
+# main
+polars
+more-itertools
+returns
+injector
+
+# already included
+# numpy
+# pandas
+# matplotlib
+# pydantic
+# click
+
+# dev
+ipdb
+isort
+black
+flake8
+mypy
+
+# already included
+# ipython
+# jupyter
+# notebook
+# pytest
+# typing_extensions
