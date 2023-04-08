@@ -3,6 +3,7 @@ polars
 more-itertools
 returns
 injector
+lightning
 
 # already included
 # numpy
