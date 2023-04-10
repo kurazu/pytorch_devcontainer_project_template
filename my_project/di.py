@@ -5,11 +5,12 @@ from typing import Any, Callable, TypeVar
 
 from injector import Injector, Module
 
+from .directories.di import DirectoriesModule
 from .printer.di import PrinterModule
 
 
 def get_injector() -> Injector:
-    modules: list[Module] = [PrinterModule()]
+    modules: list[Module] = [PrinterModule(), DirectoriesModule()]
     return Injector(modules)
 
 
