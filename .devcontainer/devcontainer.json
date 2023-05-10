@@ -14,7 +14,8 @@
 				"ms-python.isort",
 				"ms-python.flake8",
 				"GitHub.copilot",
-				"usernamehw.errorlens"
+				"usernamehw.errorlens",
+				"ms-toolsai.jupyter"
 			],
 			"settings": {}
 		}
