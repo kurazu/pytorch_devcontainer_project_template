@@ -1,7 +1,4 @@
 {
-    "python.linting.mypyEnabled": true,
-    "python.linting.flake8Enabled": true,
-    "python.linting.enabled": true,
     "files.exclude": {
         ".git": true,
         ".pytest_cache": true,
@@ -11,24 +8,20 @@
         ".mypy_cache": true,
     },
     "editor.formatOnSave": true,
-    "python.formatting.provider": "black",
-    "python.formatting.blackArgs": [
-        "--line-length",
-        "88"
-    ],
     "isort.args": [
         "--profile",
         "black"
     ],
     "[python]": {
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "editor.rulers": [
         88
     ],
-    "python.defaultInterpreterPath": "/usr/bin/python3.8",
+    "python.defaultInterpreterPath": "/usr/bin/python3",
     "cSpell.enabled": false,
     "files.trimTrailingWhitespace": true,
     "notebook.formatOnSave.enabled": true
